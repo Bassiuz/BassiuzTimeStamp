@@ -1,4 +1,4 @@
-#Bassiuz Time Stamp#
+#Bassiuz Time Stamp
 
 All 'origin' times of other time stamps do not make a lot of sense; so I created my own. Also, milliseconds is a very weird metric of time. Does anyone actually experience how long 1 millisecond is? Or how long 100 are? 
 
