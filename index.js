@@ -10,5 +10,8 @@ getBassiuzTimestamp = (date) => {
     originTime.setHours(20);
     originTime.setMinutes(10);
     originTime.setSeconds(10);
-    return date.getTime() - originTime.getTime();
+
+    const millisecondsInLogicalPeriod = 358200000;
+
+    return (date.getTime() - originTime.getTime()) / millisecondsInLogicalPeriod;
 }
